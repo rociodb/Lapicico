@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        svg{
+            padding: 0;
+            margin: 0;}
+        .svg{
+            background: orange;
+        }
+        .l1{
+            fill:blue;
+        }
+        #l11{
+            height: 500px;
+        }
+        .l2{
+            fill: purple;
+        }
+        #l22{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <svg style="display: none;">
+<symbol id="lapiz" viewBox="0 0 595.3 841.9">
+<path d="M348.8,267.5l-0.3-0.65v-2.35h-1.09L306.94,177l-38.34,87.5h-1.1v2.52l-0.21,0.48h0.21v454h81v-454H348.8z M306.88,197.43
+	l0.89,1.83h-1.73L306.88,197.43z M301.76,206.27h11.01l25.08,54.23H278L301.76,206.27z M324.9,271.5v443H289.8v-443H324.9z
+	 M274.5,271.5h8.3v443h-8.3V271.5z M341.5,714.5h-9.6v-443h9.6V714.5z"/>
+</symbol>
+</svg>
+
+<svg id="l11">
+    <use xlink:href="#lapiz" class="l1" />
+</svg>
+<svg id="l22">
+    <use xlink:href="#lapiz" class="l2" />
+</svg>
+</body>
+</html>
